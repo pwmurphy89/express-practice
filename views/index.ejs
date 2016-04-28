@@ -4,6 +4,12 @@
 <title></title>
 </head>
 <body>
-	<div>Hello</div>
+	<div>Hello! This is some practice using express</div>
+	<p>These are the students in our class!</p>
+	<% for (var i=0; i<studentsArray.length;i++){%>
+		<ul><li><%=studentsArray[i]%>
+		</li></ul><%
+		} %>
+		<p>See this list in alphabetical order by <a href="/students">clicking here</a></p>
 </body>
 </html>

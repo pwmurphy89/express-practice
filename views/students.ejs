@@ -1,2 +1,8 @@
 
-<%=studentsArray%>
+<div>Alphabetical Order</div>
+
+<% for (var i=0; i<studentsArray.length;i++){%>
+	<ul><li><%=studentsArray[i]%>
+	</li></ul><%
+	} %>
+	<div>Now see the students in reverse-alphabetical order by <a href="/students/reverse">clicking here.</a></div>
